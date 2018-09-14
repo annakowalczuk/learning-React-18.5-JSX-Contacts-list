@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f2f6;
+  color: #57606f;
+}
+
+li, form button, form input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ced6e0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ced6e0;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+form input {
+  margin-right: 10px;
+  padding-left: 5px;
+  background-color: #fff;
+  font-size: 12px;
+}
+form button {
+  color: inherit;
+  font-size: 12px;
+}
+form button:hover {
+  color: #000;
+  background-color: #dfe4ea;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #dfe4ea;
+}
+li i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  font-size: 90px;
+}
+li p {
+  margin-left: 140px;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  margin-left: 140px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+li a:hover {
+  color: #000;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f2f6;
+    color: #57606f;
+}
+
+%border-brand {
+    border: {
+        width: 1px;
+        style: solid;
+        color: #ced6e0;
+        radius: 5px;
+    }
+    box-shadow: 2px 2px 5px #ced6e0;
+}
+
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    input {
+        margin-right: 10px;
+        padding-left: 5px;
+        @extend %border-brand;
+        background-color: #fff;
+        font-size: 12px;
+
+    }
+    button {
+        @extend %border-brand;
+        color: inherit;
+        font-size: 12px;
+
+        &:hover{
+            color: #000;
+            background-color: #dfe4ea; 
+            cursor: pointer;
+        }
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    @extend %border-brand;
+    background-color: #dfe4ea;
+
+    i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+        font-size: 90px;
+    }
+
+    p {
+        margin-left: 140px;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        margin-left: 140px;
+        margin-top:16px;
+        margin-bottom: 16px;
+        &:hover {
+            color: #000;
+        }
+    }
+}
