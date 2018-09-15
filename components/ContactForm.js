@@ -10,7 +10,7 @@ var ContactForm = React.createClass({
           <input type="text" placeholder="Nazwisko" />
           <input type="email" placeholder="Email" />
           <button type="submit">Dodaj kontakt</button>
-          </form>
+        </form>
       )
     },
   })
